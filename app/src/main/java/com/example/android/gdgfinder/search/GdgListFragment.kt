@@ -17,7 +17,7 @@ import com.google.android.material.snackbar.Snackbar
 
 private const val LOCATION_PERMISSION_REQUEST = 1
 
-private const val LOCATION_PERMISSION = "android.permission.ACCESS_FINE_LOCATION"
+private const val LOCATION_PERMISSION = "android.permission.ACCESS_COARSE_LOCATION"
 
 class GdgListFragment : Fragment() {
 
