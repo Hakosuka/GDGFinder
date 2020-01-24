@@ -44,7 +44,6 @@ class GdgListFragment : Fragment() {
         // Sets the adapter of the RecyclerView
         binding.gdgChapterList.adapter = adapter
 
-        //TODO: allow for searching without requiring location tracker
         viewModel.showNeedLocation.observe(viewLifecycleOwner, object: Observer<Boolean> {
             override fun onChanged(show: Boolean?) {
                 // Snackbar is like Toast but it lets us show forever
