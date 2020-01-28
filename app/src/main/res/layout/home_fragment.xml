@@ -39,7 +39,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/spacing_normal"
-                    android:fontFamily="@font/lobster_two"
+                    android:fontFamily="@font/chivo"
                     android:text="@string/about_google_developer_groups"
                     android:textAppearance="?textAppearanceHeadline5"
                     app:layout_constraintEnd_toStartOf="@+id/end_grid"
